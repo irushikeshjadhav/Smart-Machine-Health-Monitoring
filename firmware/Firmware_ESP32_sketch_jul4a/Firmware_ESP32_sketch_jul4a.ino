@@ -3,8 +3,8 @@
 #include <PubSubClient.h>
 #include "LSM6DS3.h"
 
-const char* ssid = "Rushikesh's S25";
-const char* password = "12345678";
+const char* ssid = ""; //add your wifi name
+const char* password = ""; // add your wifi password
 const char* mqtt_server = "10.181.31.182";
 
 LSM6DS3 myIMU(I2C_MODE, 0x6A);
